@@ -1,0 +1,432 @@
+id,hotel_name,city
+199068,Lapland Hotel Yllaskaltio,Akaslompolo
+199923,Hotel Kamp,Helsinki
+202626,Rantasipi Pohjanhovi,Rovaniemi
+206324,Comfort Hotel Lahti,Lahti
+206760,"Radisson Blu Royal Hotel, Helsinki",Helsinki
+206761,Crowne Plaza Hotel Helsinki,Helsinki
+206762,"Radisson Blu Plaza Hotel, Helsinki",Helsinki
+206763,Hotel Rivoli Jardin,Helsinki
+206764,"Radisson Blu Hotel, Oulu",Oulu
+206765,Original Sokos Hotel Presidentti,Helsinki
+206766,Original Sokos Hotel Royal Vaasa,Vaasa
+206767,Rantasipi Tropiclandia Spa and Resort,Vaasa
+206768,Ramada Oulu,Oulu
+206770,Holiday Inn Turku,Turku
+206771,Rantasipi Polar,Rovaniemi
+206772,BEST WESTERN Hotel Seaport,Turku
+206773,Park Hotel Kapyla,Helsinki
+226961,Quality Hotel Vuoksenhovi,Imatra
+227266,Scandic Oscar,Varkaus
+227267,Hotel Silveria,Vaasa
+227270,BEST WESTERN Hotel Raumanlinna,Rauma
+227271,BEST WESTERN Kalliohovi,Rauma
+227272,BEST WESTERN Hotel Apollo,Oulu
+227273,BEST WESTERN Hotel Savonia,Kuopio
+227274,Hotel Rantasipi Atlas,Kuopio
+227275,Hotel Leikari,Karhula
+227276,Hotel Seurahuone,Kokkola
+227279,BEST WESTERN PLUS Hotel Haaga,Helsinki
+227281,BEST WESTERN Hotel Samantta,Haukipudas
+227985,Holiday Inn Helsinki Exhibition & Convention Center,Helsinki
+227986,Holiday Inn Helsinki-Vantaa Airport,Vantaa
+228666,Airport Hotel Bonus Inn,Vantaa
+228667,Anna Hotel,Helsinki
+228668,Scandic Espoo,Espoo
+228669,Hotel Kiannon Kuohut,Suomussalmi
+228670,Scandic Grand Marina,Helsinki
+228671,Scandic Julia,Turku
+228673,"Radisson Blu Marina Palace Hotel, Turku",Turku
+228674,Arthur Hotel,Helsinki
+228675,Scandic Kuopio,Kuopio
+228676,City Hotel Rovaniemi,Rovaniemi
+228677,Hilton Helsinki Kalastajatorppa,Helsinki
+228678,Scandic Marski,Helsinki
+228680,Scandic Rovaniemi,Rovaniemi
+228682,Scandic Simonkentta,Helsinki
+228683,Hotel Luosto,Luosto
+228684,Rantasipi Valtionhotelli,Imatra
+228685,Scandic Rosendahl,Tampere
+228686,Scandic Jyvaskyla,Jyvaskyla
+228687,Scandic Patria,Lappeenranta
+228688,Scandic Pori,Pori
+229648,Scandic Plaza Turku,Turku
+229649,Scandic Tampere City,Tampere
+229708,Centro Hotel Turku,Turku
+230236,Finlandia Hotel Kumpeli,Heinola
+230992,Hotel Avion,Helsinki
+230993,Hotel Seurahuone Helsinki,Helsinki
+230997,Cumulus Imatra,Imatra
+230998,Imatran Kylpyla Spa,Imatra
+231000,Rantasipi Laajavuori,Jyvaskyla
+231003,Cumulus Lahti,Lahti
+231005,Cumulus Lappeenranta,Lappeenranta
+231006,Cumulus Mikkeli,Mikkeli
+231007,Cumulus Rauma,Rauma
+231010,Cumulus Hameenpuisto,Tampere
+231011,Cumulus Pinja,Tampere
+232073,Original Sokos Hotel Lappee,Lappeenranta
+232143,GLO Hotel Art,Helsinki
+232145,Original Sokos Hotel Helsinki,Helsinki
+232147,Original Sokos Hotel Pasila,Helsinki
+232148,Solo Sokos Hotel Torni,Helsinki
+232149,Original Sokos Hotel Vaakuna,Helsinki
+232150,"Radisson Blu Hotel, Espoo",Espoo
+232151,Original Sokos Hotel Tapiola Garden,Espoo
+232152,Hotel Korpilampi,Espoo
+232153,Original Sokos Hotel Ilves,Tampere
+232154,Solo Sokos Hotel Tammer,Tampere
+232155,Original Sokos Hotel Villa,Tampere
+232157,Original Sokos Hotel Seurahuone,Turku
+232158,"Original Sokos Hotel Vaakuna,Rovaniemi",Rovaniemi
+232279,Original Sokos Hotel Kimmel,Joensuu
+232280,"Original Sokos Hotel Vaakuna, Joensuu",Joensuu
+232281,Original Sokos Hotel Valjus,Kajaani
+232282,Solo Sokos Hotel Lahti Seurahuone,Lahti
+232283,Rantasipi Airport,Vantaa
+232284,Original Sokos Hotel Vantaa,Vantaa
+232285,Original Sokos Hotel Alexandra,Jyvaskyla
+232286,Original Sokos Hotel Jyvashovi,Jyvaskyla
+232287,Original Sokos Hotel Vaakuna Pori,Pori
+232288,Original Sokos Hotel Vaakuna,Vaasa
+232291,Original Sokos Hotel Puijonsarvi,Kuopio
+232292,Original Sokos Hotel Vaakuna Mikkeli,Mikkeli
+232294,BEST WESTERN Spahotel Casino,Savonlinna
+232295,Original Sokos Hotel Kuusamo,Kuusamo
+232304,Original Sokos Hotel Kaarle,Kokkola
+232305,Original Sokos Hotel Seurahuone,Kotka
+232306,Cumulus Kallio Helsinki,Helsinki
+232307,Hilton Helsinki Strand,Helsinki
+234814,BEST WESTERN Airport Hotel Pilotti,Helsinki
+234815,Cumulus Airport,Vantaa
+235946,GLO Hotel Airport Vantaa,Vantaa
+237687,"Safarihouse, Nuuksio",Espoo
+237688,Art-Travel Apartments,Espoo
+237689,Hotel Lepolampi,Espoo
+237690,Espoo Camping Oittaa,Espoo
+237691,Hotel Helka,Helsinki
+237695,Expert Vuokraus,Helsinki
+237697,Habitation,Helsinki
+237698,Hotel Union,Helsinki
+237699,Hotel Puhkus,Helsinki
+237701,Cate Trust,Helsinki
+237703,Lomakyla Rustholli,Tampere
+237704,Hotel Kauppi,Tampere
+237705,Pirkanmaan Majoitus- ja Kotipalvelu,Tampere
+237707,Holiday Club Tampereen Kylpyla,Tampere
+237708,Hotelli Iltatahti,Tampere
+238335,AEL-Hotelli,Helsinki
+238361,Hotelli Finn,Helsinki
+238377,Hotelli Pilvihovi,Helsinki
+238453,Scandic Park Helsinki,Helsinki
+238534,Hotelli Cumulus Koskikatu,Tampere
+238548,Hotelli Haapalinna,Tampere
+238709,Hotelli Lamminpaa,Tampere
+238710,Hotelli Lapinkaari,Tampere
+238713,Hotel Hanasaari,Espoo
+241999,Ava Hotel,Helsinki
+249055,Cumulus Kuopio Hotel,Kuopio
+249056,Cumulus Jyvaskyla Hotel,Jyvaskyla
+249057,Cumulus Pori Hotel,Pori
+249058,Cumulus Seinajoki,Seinajoki
+249059,Original Sokos Hotel Lakeus,Seinajoki
+249288,Cumulus Kaisaniemi,Helsinki
+249390,Cumulus Oulu Hotel,Oulu
+249391,Break Sokos Hotel Eden,Oulu
+250399,Scandic Kajanus,Kajaani
+250858,Holiday Club Kuusamo Spa Hotel,Kuusamo
+250865,Original Sokos Hotel Vaakuna,Seinajoki
+251590,The Naantali Spa,Naantali
+251592,Quality Hotel Isovalkeinen,Kuopio
+254843,Holiday Club Katinkulta,Vuokatti
+262284,Hotel Merihovi,Kemi
+262286,Hotel Hullu Poro,Levi Finland
+262288,Sokos City Bors,Turku
+262804,Spa Hotel Rantasipi Aulanko,Haemeenlinna
+262806,Original Sokos Hotel Vaakuna Hameenlinna,Haemeenlinna
+263808,Santa's Hotel Santa Claus,Rovaniemi
+263810,Lumimaa - Snowland,Rovaniemi
+263812,Lapland Hotel Sky Ounasvaara,Rovaniemi
+264734,Hotel Cumulus Kotka,Kotka
+266637,Holiday Club Saariselka,Saariselka
+266800,Hotel Fenno,Vaasa
+267464,Spa Hotel Levitunturi,Levi Finland
+269629,Summer Hotel Oppimestari,Oulu
+272403,Cumulus Kemi Hotel,Kemi
+274641,Holiday Inn Helsinki City Centre,Helsinki
+277724,Lapland Hotel Hetta,Enontekio
+277725,Hotel Ivalo,Ivalo
+278168,Hotel Kokkola,Kokkola
+280795,Rantasipi Rukahovi,Rukatunturi
+280796,Cumulus Hameenlinna,Haemeenlinna
+280797,Cumulus Hyvinkaa,Hyvinkaa
+280799,Seurahovi Hotel,Porvoo
+280800,Scandic Riihimaki,Riihimaki
+280801,Rantasipi Sveitsi,Hyvinkaa
+280802,Spa Hotel Rantasipi Eden,Nokia
+281328,Hotel Hamina,Hamina
+281329,Original Sokos Hotel Arina,Oulu
+282772,Hotell Arkipelag,Mariehamn
+282773,Hotel Savoy Mariehamn,Mariehamn
+284394,Hotel Adlon,Mariehamn
+286742,Cumulus Kouvola,Kouvola
+286744,Rantasipi Forssa,Forssa
+290657,Park Alandia Hotel,Mariehamn
+290666,Hotel Pommern,Mariehamn
+292884,Gustavelund Hotel,Tuusula
+292886,Hotelli Kestihovi,Helsinki
+292887,Hotelli Majvik,Helsinki
+292891,Kurssi- ja lomahotelli Elohovi,Helsinki
+292904,Asuntohotelli Lomasaari,Tampere
+292917,Majatalo Hiidenhelmi,Tampere
+292919,Hotelli Kanava,Tampere
+292920,Hotelli Liera,Tampere
+292922,Karppalan Rustholli,Tampere
+293333,Kakslauttanen Arctic Resort,Saariselka
+296760,Scandic Lahti,Lahti
+305802,Cumulus Turku Hotel,Turku
+321052,Break Sokos Hotel Tahko,Tahkovuori
+324908,Hotel Haikko Manor,Porvoo
+480806,Lapland Hotel Akashotelli,Akaslompolo
+480812,Lapland Hotel Luostotunturi,Luosto
+480826,Hotel Kieppi,Saariselka
+480830,Lapland Hotel Riekonlinna,Saariselka
+480833,Lapland Hotel Sirkantahti,Levi Finland
+480834,Santa's Hotel Tunturi,Saariselka
+482009,Hotel Sparre,Porvoo
+482035,Hotel Atrium,Joensuu
+487777,BEST WESTERN Hotel Kievari Kitee,Kitee
+487778,BEST WESTERN Hotelli Sommelo,Kouvola
+501965,Break Sokos Hotel Koli,Koli National Park
+505527,Holiday Club Caribia,Turku
+505528,Tammivalkama,Turku
+505530,Original Sokos Hotel Hamburger Bors,Turku
+505844,Hotel Huoneet,Kittila
+507385,Kultahippu Hotel & Restaurant,Ivalo
+531130,Kuopio-Hotel Jahtihovi,Kuopio
+531416,Anton,Helsinki
+555306,Cumulus Salo Hotel,Salo
+556382,Punkaharjun Valtionhotelli,Punkaharju
+561487,"Radisson Blu Seaside Hotel, Helsinki",Helsinki
+566059,Hotelli Rantakalla,Kalajoki
+566475,Rauhalahti Spa Hotel,Kuopio
+576297,Mantymotelli,Karankamaki
+576346,Hotelli Keurusselka,Keuruu
+578920,Holiday Inn Helsinki West-Ruoholahti,Helsinki
+579503,Klaus K Hotel,Helsinki
+583103,Hotel Artukaisten Paviljonki,Turku
+589722,GLO Hotel Sello,Espoo
+592835,Valimaki Farm,Sastamala
+596136,Lapland Hotel Tampere,Tampere
+597205,Hotel Musta Kissa,Lahti
+599067,Mammut Snow Hotel,Kemi
+611136,Hotel Astor,Vaasa
+612761,Hellsten Helsinki Senate,Helsinki
+620975,Hotelli Kuopion Keskusta,Kuopio
+622589,Scandic Oulu,Oulu
+623978,BEST WESTERN Hotel Rantapuisto,Helsinki
+625374,GLO Hotel Kluuvi Helsinki,Helsinki
+628527,Hotel Jeris,Muonio
+633237,BEST WESTERN Hotel Vallonia,Mustasaari
+633303,Hotel Iso-Syote,Iso Syote
+634875,Hotel Matinlahti,Espoo
+635058,Hilton Helsinki Airport,Vantaa
+639892,SnowCastle of Kemi,Kemi
+639896,Snow Hotel,Yllasjarvi
+644662,Hotel Krapi,Tuusula
+645244,Hotel Kalevala,Kuhmo
+646205,Tradition Hotel Kultahovi Inari,Inari
+646224,Park Hotel Tornio,Tornio
+647960,Lapland Hotel Pallas,Muonio
+647962,Lapland Hotel Olos,Muonio
+649800,Hotel Inari,Inari
+652575,BEST WESTERN PREMIER Hotel Katajanokka,Helsinki
+661110,Hotel YllasHumina,Akaslompolo
+665194,Bear Inn Hotel,Sodankyla
+665195,Amado Hotel,Pori
+670727,Hotel Villa Aria,Savonlinna
+676709,Original Sokos Hotel Albert,Helsinki
+679420,Rantasipi Siuntion Kylpyla,Siuntio
+679833,Finlandia Hotel Alba,Jyvaskyla
+729411,Lasaretti Hotel,Oulu
+729593,Hellsten Espoo,Espoo
+758181,Ikaalinen Spa,Ikaalinen
+787396,Vanajanlinna,Haemeenlinna
+804027,Davvi Arctic Lodge,Karesuvanto
+844519,Hotel On-Piste,Akaslompolo
+858265,Hotel Hetan Majatalo,Enontekio
+929452,Hotel Yllasrinne,Yllasjarvi
+944972,Ruissalo Spa Hotel,Turku
+945100,Hotel Kuninkaantie,Espoo
+945761,Levilehto Apartments,Levi Finland
+1005644,Hotel Jussantupa,Enontekio
+1023350,Akaskero Nature Resort,Akaslompolo
+1025842,Holiday Club Kuusamon Tropiikki,Kuusamo
+1027051,Solo Sokos Hotel Aleksanteri,Helsinki
+1028527,Ski-Inn RukaVillage Hotel & Apartments,Rukatunturi
+1029030,Hotel Restaurant Nurmeshovi,Nurmes
+1079681,Lanterna Hotel-Cafe,Nagu
+1099673,Gammelgard,Nagu
+1108033,Park Hotel,Turku
+1118834,Hotel Karelia,Joensuu
+1118835,Strandnas Hotel,Mariehamn
+1118865,Messila Maailma Oy,Hollola
+1146298,Kulttuurikeskus Sofia,Helsinki
+1148618,Aquarius,Uusikaupunki
+1158907,Hotel Haven,Helsinki
+1159207,Break Sokos Hotel Vuokatti,Vuokatti
+1163157,BW Premier Collection HavsVidden,Geta Aland Island
+1163883,Hotelli Vanha Rauma,Rauma
+1167013,Fjallhauserdorf Iso-Syote,Pudasjarvi
+1168390,Lapland Hotel Saaga,Yllasjarvi
+1175426,Break Sokos Hotel Flamingo,Vantaa
+1178220,Levi Chalet,Levi Finland
+1180438,Spa Hotel Summassaari,Saarijarvi
+1181606,Hotel Helmi,Turku
+1182134,Kuuharju Blockhauser,Taivalkoski
+1182474,Sahanlahti,Puumala
+1182656,Meritahti,Turku
+1182658,Nilsia,Kuopio
+1184242,Holiday Center Saimaanranta,Taipalsaari
+1185213,Lappeenranta Spa,Lappeenranta
+1186359,Finlandia Hotel Airport Oulu,Kempele
+1193357,Aurinkoniemi,Luopioinen
+1193380,Ruusuhovi,Rantasalmi
+1193474,Peurunka,Laukaa
+1200692,Break Sokos Hotel Levi,Levi Finland
+1208246,Hotel Pariisin Ville,Porvoo
+1209750,Jugend Guest Home,Pietarsaari
+1213085,Lapland Hotel Sirkantahti,Levi Finland
+1218435,Ramada Airport,Helsinki
+1223765,Himos Holiday Centre,Jamsa
+1229881,Hotelli Palomestari,Kemi
+1229883,Hotelli Aakenus,Rovaniemi
+1229885,Hotel Sodankyla,Sodankyla
+1229889,Hotelli Raahen Hovi,Raahe
+1229890,Hotel Tiiranlinna,Raahe
+1229892,Kauppahotelli Grand,Lahti
+1230194,Hotelli Milton,Jyvaskyla
+1230225,Hotelli Nukkumatti,Kokkola
+1230227,Juhlatalo Rantakartano,Pori
+1230232,Hotelli City Hovi,Rauma
+1230235,Hotelli Kuntosumppu,Rauma
+1230245,City-Hotelli JamsanUkko,Jamsa
+1230250,Himos Hotelli,Jamsa
+1230251,Hotel Jamsa,Jamsa
+1232729,Golden Crown Levin Iglut Levi Igloos,Levi Finland
+1235562,Manor Spa Kaisankoti,Espoo
+1236308,Cumulus Joensuu,Joensuu
+1239511,Finlandia Hotel Degerby,Loviisa
+1307594,Ski-Inn Hotel Pyhatunturi,Pyhatunturi
+1308024,Ski-Inn Ruka Suites,Kuusamo
+1371811,Nellim Wilderness Hotel,Nellim
+1384304,Hotelli Nukkumatti,Sastamala
+1384345,VuoriHotelli,Sastamala
+1421175,Nuorgam Holiday Resort,Nuorgam
+1474945,Hotelli Emilia,Haemeenlinna
+1484185,Hotel Tuulonen,Tuulos
+1503390,Break Sokos Hotel Bomba,Nurmes
+1503495,Sport & Spa Hotel Vesileppis,Leppavirta
+1510056,Yyteri Hotel & Spa,Pori
+1524179,Kultaranta Golf Resort,Naantali
+1534574,BEST WESTERN Hotel Carlton,Helsinki
+1535753,Hotel Kalkstrand,Parainen
+1535860,Hotel Kivitasku,Kaarina
+1579944,Hotel-Restaurant Aada,Joensuu
+1595292,Kalajoki Resort,Kalajoki
+1604055,Hotelli takka-valkea,Salla
+1637857,Arctic SnowHotel & Glass Igloos,Sinetta
+1644612,Hotel Cikada,Mariehamn
+1672182,Hotel Levi Panorama,Levi Finland
+1719023,Cumulus Hakaniemi,Helsinki
+1735780,Hotel Kantarellis,Vaasa
+1741030,Hotelli Kauhajoen Krouvi,Kauhajoki
+1744228,Hotel Seurahuone,Riihimaki
+1770776,Langvik Congress Wellness Hotel,Kirkkonummi
+1782788,Fabian Hotel,Helsinki
+1803527,Scandic Forssa,Forssa
+1816269,Original Sokos Hotel Vaakuna,Kouvola
+1830695,Golden Resort,Tahkovuori
+1833309,Hotel Waltikka,Valkeakoski
+1835898,Spa Hotel Kuntoranta,Varkaus
+1837578,Motel Willis West,Rukatunturi
+1840189,Scandic Jarvenpaa,Jarvenpaa
+1847429,Majvik Congress Hotel,Kirkkonummi
+1874084,Spa Hotel Kunnonpaikka,Siilinjarvi
+1884396,Arctic Circle Hotel,Suomo
+1913857,Original Sokos Hotel Seurahuone,Savonlinna
+1935884,BEST WESTERN Airport Hotel Pilotti,Vantaa
+1957003,Tundrea Holiday Resort,Kilpisjarvi
+1958227,Hotel Seita,Akaslompolo
+1958244,Stadshotellet,Pietarsaari
+1989668,Hotel Sorsanpesa,Seinajoki
+1996225,Villa Lanca,Inari
+2017299,Scandic Vierumaki,Vierumaki
+2027602,Spa Kivitippu,Lappajarvi
+2032395,Jokelan Kartano,Hameenkoski
+2042220,Hotelli-Ravintola Lapuahovi,Lapua
+2091172,Snow Village,Kittila
+2095272,Hotel Hirvi,Aanekoski
+2151632,Santa Claus Holiday Village,Rovaniemi
+2152309,Scandic Paasi,Helsinki
+2167173,Hotelli Pellonhovi,Pello
+2176339,Hirvihaaran Kartano,Mantsala
+2196530,Spa Hotel Paivakumpu,Karjalohja
+2231130,Mommolan Motelli,Huittinen
+2231513,Hotel Kajaani,Kajaani
+2241124,Summer Hotel Tott,Savonlinna
+2241875,Hotel Kruunupuisto,Punkaharju
+2255358,Mantan Klubi,Mantta
+2284689,Minimotel,Tohmajarvi
+2294469,Hotel OnnenTahti,Tuuri
+2337561,Hotelli Kauhava,Kauhava
+2367168,Spa Hotel Runni,Runni Northern Savonia
+2402972,Holiday Club Saimaa,Imatra
+2465961,Hotel Tulikettu,Sotkamo
+2471406,Motel Patalahti,Jamsa
+2522365,Viking Motel,Hanko
+2522668,Petays Resort,Tyrvanto
+2554253,Scandic Tampere Station,Tampere
+2570557,Spa Hotel Harma - Harman kylpyla,Yliharma
+2588827,Motel Virsta,Patokoski
+2589532,Next Hotel Aavaranta,Oitmaki
+2589576,Harjattula Manor,Harjattula
+2602695,Rokua Health & Spa,Ahmas
+2614550,Hotel Lannentie,Uusikaupunki
+2615046,Hotel Vuontispirtti,Enontekio
+2698820,Summer Hotel Malakias,Savonlinna
+2699956,Summer Hotel Opera,Savonlinna
+2712351,Abcitimotel,Lappeenranta
+3167959,Kuntoutuskeskus Kankaanpaa,Kankaanpaa
+3244257,Holiday Inn Tampere - Central Station,Tampere
+3317605,Solo Sokos Hotel Paviljonki,Jyvaskyla
+3353502,Holiday Resort Harjun Portti,Punkaharju
+3353993,Hotel Regatta,Hanko
+3437632,Vierumaki Country Club Ilkka,Vierumaki
+3478913,Wanha Karhunmaki,Karhunmaki
+3583827,Saaristokylpyla Kasnas Skargardsbad,Kasnas
+3812498,KN Keskus,Kirkkonummi
+4054805,Hotelli Joki,Tohmajarvi
+4112508,Santa’s Resort and Hotel Kakslauttanen,Saariselka
+4506005,Hotel Simpsionkullas,Lapua
+4606293,"Ruka Ski Chalets, Apartmenthotel",Rukatunturi
+4680253,Basto Hotel & Stugor,Palsbole_Aland
+4810753,Vuokatti Sport Hotel,Vuokatti
+6215886,Kisakallion Urheiluopisto,Lohja
+6886082,Kuntoutumiskeskus Apila,Kangasala
+6984587,Aurora,Helsinki
+7126011,Motel Ruskalinna,Pello
+7179848,Solo Sokos Hotel Torni Tampere,Tampere
+7250386,Hotel Norrvalla,Voyri
+7288414,Hotel Indigo Helsinki - Boulevard,Helsinki
+7314384,BEST WESTERN Apartments Levin Klubi,Levi Finland
+7314437,BEST WESTERN Apartments Levi Gold,Levi Finland
+7331932,Arctic Light Hotel,Rovaniemi
+7837530,Lapland Hotel Oulu,Oulu
+7940665,Hotel Lilla Roberts,Helsinki
+8064685,Rantasipi Ikaalisten Kylpyla,Ikaalinen
+9736769,Hotelli Suomutunturi,Kemijarvi
+9772177,Pajulahti Sports Institute,Nastola
+9786794,Cumulus Meilahti,Helsinki
+9809637,Hotelli Nuuksio,Kirkkonummi
+9810206,Clarion Hotel Helsinki,Helsinki
