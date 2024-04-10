@@ -1,0 +1,270 @@
+===========================
+** Word Vectors
+===========================
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+: 0 (3118.0/11.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 3.32 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         930               99.4652 %
+Incorrectly Classified Instances         5                0.5348 %
+Kappa statistic                          0     
+Mean absolute error                      0.0081
+Root mean squared error                  0.073 
+Relative absolute error                 94.7131 %
+Root relative squared error            100.0203 %
+Total Number of Instances              935     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    1,000    0,995      1,000    0,997      ?        0,500     0,995     0
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,005     1
+Weighted Avg.    0,995    0,995    ?          0,995    ?          ?        0,500     0,989     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 930   0 |   a = 0
+   5   0 |   b = 1
+
+
+===========================
+** Word Vectors + InfoGainAttributeVal
+===========================
+
+Attributes: 600
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+: 0 (3118.0/11.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 3.32 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         930               99.4652 %
+Incorrectly Classified Instances         5                0.5348 %
+Kappa statistic                          0     
+Mean absolute error                      0.0081
+Root mean squared error                  0.073 
+Relative absolute error                 94.7131 %
+Root relative squared error            100.0203 %
+Total Number of Instances              935     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    1,000    0,995      1,000    0,997      ?        0,500     0,995     0
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,005     1
+Weighted Avg.    0,995    0,995    ?          0,995    ?          ?        0,500     0,989     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 930   0 |   a = 0
+   5   0 |   b = 1
+
+===========================
+** Word Vectors + InfoGainAttributeVal 
+===========================
+
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+: 0 (3118.0/11.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 1.66 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         930               99.4652 %
+Incorrectly Classified Instances         5                0.5348 %
+Kappa statistic                          0     
+Mean absolute error                      0.0081
+Root mean squared error                  0.073 
+Relative absolute error                 94.7131 %
+Root relative squared error            100.0203 %
+Total Number of Instances              935     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    1,000    0,995      1,000    0,997      ?        0,500     0,995     0
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,005     1
+Weighted Avg.    0,995    0,995    ?          0,995    ?          ?        0,500     0,989     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 930   0 |   a = 0
+   5   0 |   b = 1
+
+
+
+===========================
+** Word Vectors + InfoGainAttributeVal + SMOTE
+===========================
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+Time taken to build model: 1.9 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.07 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1090               99.0909 %
+Incorrectly Classified Instances        10                0.9091 %
+Kappa statistic                          0.9659
+Mean absolute error                      0.009 
+Root mean squared error                  0.0847
+Relative absolute error                  3.4234 %
+Root relative squared error             23.0849 %
+Total Number of Instances             1100     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,997    0,040    0,992      0,997    0,995      0,966    0,989     0,996     0
+                 0,960    0,003    0,983      0,960    0,971      0,966    0,989     0,958     1
+Weighted Avg.    0,991    0,034    0,991      0,991    0,991      0,966    0,989     0,990     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 921   3 |   a = 0
+   7 169 |   b = 1
+
+
+===========================
+** Word Vectors + InfoGainAttributeVal + SMOTE + cost sensitive matrix
+===========================
+Cost Matrix
+   0   1
+ 100   0
+
+
+Time taken to build model: 1.35 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1033               93.9091 %
+Incorrectly Classified Instances        67                6.0909 %
+Kappa statistic                          0.8013
+Total Cost                              94     
+Average Cost                             0.0855
+Mean absolute error                      0.0612
+Root mean squared error                  0.2458
+Relative absolute error                 23.3654 %
+Root relative squared error             67.0335 %
+Total Number of Instances             1100     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,931    0,017    0,997      0,931    0,963      0,815    0,957     0,986     0
+                 0,983    0,069    0,730      0,983    0,838      0,815    0,957     0,728     1
+Weighted Avg.    0,939    0,025    0,954      0,939    0,943      0,815    0,957     0,945     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 860  64 |   a = 0
+   3 173 |   b = 1
+
+
+
+
+========================================
+
+Trying out different matrix
+
+
+Number of Leaves  : 	24
+
+Size of the tree : 	47
+
+
+Cost Matrix
+  0  1
+ 10  0
+
+
+Time taken to build model: 1.62 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1083               98.4545 %
+Incorrectly Classified Instances        17                1.5455 %
+Kappa statistic                          0.9434
+Total Cost                              62     
+Average Cost                             0.0564
+Mean absolute error                      0.0158
+Root mean squared error                  0.1235
+Relative absolute error                  6.0298 %
+Root relative squared error             33.678  %
+Total Number of Instances             1100     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,987    0,028    0,995      0,987    0,991      0,944    0,979     0,993     0
+                 0,972    0,013    0,934      0,972    0,953      0,944    0,979     0,906     1
+Weighted Avg.    0,985    0,026    0,985      0,985    0,985      0,944    0,979     0,979     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 912  12 |   a = 0
+   5 171 |   b = 1

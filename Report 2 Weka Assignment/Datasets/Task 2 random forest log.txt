@@ -1,0 +1,237 @@
+===========================
+** Word Vectors
+===========================
+
+Attributes: 1096
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 1.89 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.06 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         930               99.4652 %
+Incorrectly Classified Instances         5                0.5348 %
+Kappa statistic                          0     
+Mean absolute error                      0.0078
+Root mean squared error                  0.0732
+Relative absolute error                 91.9207 %
+Root relative squared error            100.3554 %
+Total Number of Instances              935     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    1,000    0,995      1,000    0,997      ?        0,493     0,995     0
+                 0,000    0,000    ?          0,000    ?          ?        0,493     0,005     1
+Weighted Avg.    0,995    0,995    ?          0,995    ?          ?        0,493     0,989     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 930   0 |   a = 0
+   5   0 |   b = 1
+
+===========================
+** Word Vectors + InfoGainAttributeVal 
+===========================
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 1.6 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.03 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         930               99.4652 %
+Incorrectly Classified Instances         5                0.5348 %
+Kappa statistic                          0     
+Mean absolute error                      0.0077
+Root mean squared error                  0.0734
+Relative absolute error                 90.2882 %
+Root relative squared error            100.6223 %
+Total Number of Instances              935     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    1,000    0,995      1,000    0,997      ?        0,416     0,994     0
+                 0,000    0,000    ?          0,000    ?          ?        0,416     0,005     1
+Weighted Avg.    0,995    0,995    ?          0,995    ?          ?        0,416     0,988     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 930   0 |   a = 0
+   5   0 |   b = 1
+
+===========================
+** Word Vectors + InfoGainAttributeVal + SMOTE
+===========================
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 2.27 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.11 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1099               99.9091 %
+Incorrectly Classified Instances         1                0.0909 %
+Kappa statistic                          0.9966
+Mean absolute error                      0.0218
+Root mean squared error                  0.0483
+Relative absolute error                  8.3233 %
+Root relative squared error             13.1805 %
+Total Number of Instances             1100     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,006    0,999      1,000    0,999      0,997    1,000     1,000     0
+                 0,994    0,000    1,000      0,994    0,997      0,997    1,000     1,000     1
+Weighted Avg.    0,999    0,005    0,999      0,999    0,999      0,997    1,000     1,000     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 924   0 |   a = 0
+   1 175 |   b = 1
+
+===========================
+** Word Vectors + InfoGainAttributeVal + SMOTE + cost sensitive matrix
+===========================
+
+=== Classifier model (full training set) ===
+
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+
+Classifier Model
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Cost Matrix
+  0  1
+ 100  0
+
+
+Time taken to build model: 1.39 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.11 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1099               99.9091 %
+Incorrectly Classified Instances         1                0.0909 %
+Kappa statistic                          0.9966
+Total Cost                              10     
+Average Cost                             0.0091
+Mean absolute error                      0.0215
+Root mean squared error                  0.0474
+Relative absolute error                  8.2054 %
+Root relative squared error             12.9242 %
+Total Number of Instances             1100     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,006    0,999      1,000    0,999      0,997    1,000     1,000     0
+                 0,994    0,000    1,000      0,994    0,997      0,997    1,000     1,000     1
+Weighted Avg.    0,999    0,005    0,999      0,999    0,999      0,997    1,000     1,000     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 924   0 |   a = 0
+   1 175 |   b = 1
+
+
+
+=============================
+
+Trying out different cost sensitive matrix
+
+=== Classifier model (full training set) ===
+
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+
+Classifier Model
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Cost Matrix
+  0  1
+ 10  0
+
+
+Time taken to build model: 1.42 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.05 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1099               99.9091 %
+Incorrectly Classified Instances         1                0.0909 %
+Kappa statistic                          0.9966
+Total Cost                              10     
+Average Cost                             0.0091
+Mean absolute error                      0.0215
+Root mean squared error                  0.0474
+Relative absolute error                  8.2054 %
+Root relative squared error             12.9242 %
+Total Number of Instances             1100     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,006    0,999      1,000    0,999      0,997    1,000     1,000     0
+                 0,994    0,000    1,000      0,994    0,997      0,997    1,000     1,000     1
+Weighted Avg.    0,999    0,005    0,999      0,999    0,999      0,997    1,000     1,000     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 924   0 |   a = 0
+   1 175 |   b = 1

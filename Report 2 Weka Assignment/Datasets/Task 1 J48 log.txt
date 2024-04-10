@@ -1,0 +1,222 @@
+===========================
+** Word Vectors
+===========================
+
+Attributes: 1100
+
+Number of Leaves  : 	628
+
+Size of the tree : 	1255
+
+
+Time taken to build model: 56.84 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.03 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         349               37.3262 %
+Incorrectly Classified Instances       586               62.6738 %
+Kappa statistic                          0.1426
+Total Cost                             880     
+Average Cost                             0.9412
+Mean absolute error                      0.2503
+Root mean squared error                  0.4731
+Relative absolute error                 85.1959 %
+Root relative squared error            123.9512 %
+Total Number of Instances              935     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,397    0,081    0,293      0,397    0,337      0,276    0,702     0,223     1
+                 0,239    0,055    0,250      0,239    0,244      0,187    0,622     0,135     2
+                 0,173    0,148    0,190      0,173    0,181      0,026    0,536     0,177     3
+                 0,384    0,338    0,381      0,384    0,382      0,046    0,543     0,370     4
+                 0,486    0,237    0,505      0,486    0,495      0,251    0,654     0,457     5
+Weighted Avg.    0,373    0,232    0,374      0,373    0,373      0,139    0,597     0,339     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  29  10  14  11   9 |   a = 1
+  14  16  12  16   9 |   b = 2
+  18  14  27  69  28 |   c = 3
+  22  16  62 126 102 |   d = 4
+  16   8  27 109 151 |   e = 5
+
+
+===========================
+** Word Vectors + InfoGainAttributeVal
+===========================
+
+Attributes: 600
+
+Number of Leaves  : 	609
+
+Size of the tree : 	1217
+
+
+Time taken to build model: 35.29 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         372               39.7861 %
+Incorrectly Classified Instances       563               60.2139 %
+Kappa statistic                          0.1715
+Mean absolute error                      0.2449
+Root mean squared error                  0.4619
+Relative absolute error                 83.3593 %
+Root relative squared error            121.009  %
+Total Number of Instances              935     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,329    0,057    0,329      0,329    0,329      0,272    0,624     0,196     1
+                 0,209    0,067    0,194      0,209    0,201      0,138    0,620     0,131     2
+                 0,250    0,136    0,269      0,250    0,259      0,117    0,554     0,198     3
+                 0,393    0,320    0,399      0,393    0,396      0,074    0,538     0,369     4
+                 0,534    0,250    0,516      0,534    0,524      0,281    0,669     0,459     5
+Weighted Avg.    0,398    0,227    0,396      0,398    0,397      0,170    0,597     0,340     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  24  10  15  16   8 |   a = 1
+  11  14  11  19  12 |   b = 2
+  13  15  39  56  33 |   c = 3
+  14  24  58 129 103 |   d = 4
+  11   9  22 103 166 |   e = 5
+
+===========================
+** Word Vectors + InfoGainAttributeVal + Linear Cost Sensitive matrix for CostSensitiveClassifier using J48
+===========================
+
+Evaluation cost matrix:
+ 0 1 2 3 4
+ 1 0 1 2 3
+ 2 1 0 1 2
+ 3 2 1 0 1
+ 4 3 2 1 0
+
+Number of Leaves  : 	460
+
+Size of the tree : 	919
+
+
+Cost Matrix
+ 0 1 2 3 4
+ 1 0 1 2 3
+ 2 1 0 1 2
+ 3 2 1 0 1
+ 4 3 2 1 0
+
+
+Time taken to build model: 27.63 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.03 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         382               40.8556 %
+Incorrectly Classified Instances       553               59.1444 %
+Kappa statistic                          0.177 
+Total Cost                             840     
+Average Cost                             0.8984
+Mean absolute error                      0.2451
+Root mean squared error                  0.4455
+Relative absolute error                 83.4323 %
+Root relative squared error            116.7275 %
+Total Number of Instances              935     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,370    0,057    0,355      0,370    0,362      0,307    ?         ?         1
+                 0,209    0,059    0,215      0,209    0,212      0,152    ?         ?         2
+                 0,199    0,098    0,290      0,199    0,236      0,118    ?         ?         3
+                 0,415    0,333    0,402      0,415    0,408      0,081    ?         ?         4
+                 0,559    0,280    0,499      0,559    0,527      0,272    ?         ?         5
+Weighted Avg.    0,409    0,235    0,398      0,409    0,401      0,174    ?         ?         
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  27   7  12  13  14 |   a = 1
+  15  14   6  18  14 |   b = 2
+  11  10  31  65  39 |   c = 3
+  12  24  48 136 108 |   d = 4
+  11  10  10 106 174 |   e = 5
+
+===========================
+** Word Vectors + InfoGainAttributeVal + Nonlinear Cost Sensitive matrix for CostSensitiveClassifier using J48
+===========================
+
+Attributes: 600
+
+Evaluation cost matrix:
+ 0 1 2 4 8
+ 1 0 1 2 4
+ 2 1 0 1 2
+ 4 2 1 0 1
+ 8 4 2 1 0
+
+Number of Leaves  : 	439
+
+Size of the tree : 	877
+
+
+Cost Matrix
+ 0 1 2 4 8
+ 1 0 1 2 4
+ 2 1 0 1 2
+ 4 2 1 0 1
+ 8 4 2 1 0
+
+
+Time taken to build model: 28.45 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         383               40.9626 %
+Incorrectly Classified Instances       552               59.0374 %
+Kappa statistic                          0.1748
+Total Cost                             959     
+Average Cost                             1.0257
+Mean absolute error                      0.2448
+Root mean squared error                  0.4508
+Relative absolute error                 83.3284 %
+Root relative squared error            118.1194 %
+Total Number of Instances              935     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,425    0,081    0,307      0,425    0,356      0,297    ?         ?         1
+                 0,119    0,048    0,160      0,119    0,137      0,081    ?         ?         2
+                 0,109    0,078    0,218      0,109    0,145      0,041    ?         ?         3
+                 0,485    0,353    0,426      0,485    0,454      0,129    ?         ?         4
+                 0,540    0,264    0,505      0,540    0,522      0,271    ?         ?         5
+Weighted Avg.    0,410    0,235    0,389      0,410    0,395      0,171    ?         ?         
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  31   8  11  16   7 |   a = 1
+  21   8   7  15  16 |   b = 2
+  20  10  17  72  37 |   c = 3
+  19  18  27 159 105 |   d = 4
+  10   6  16 111 168 |   e = 5
